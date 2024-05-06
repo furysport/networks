@@ -1,4 +1,4 @@
-[![furya github banner](https://raw.githubusercontent.com/furya/.github/main/profile/static/furya_banner.png)](https://docs.furya.network)
+[![furya github banner](https://github.com/furysport/networks/blob/networks/.github/main/profile/static/furya_banner.png)](https://docs.furya.network)
 
 # 🌐 Furya Networks
 
