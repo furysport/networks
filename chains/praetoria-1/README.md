@@ -21,7 +21,7 @@ furyad --home $HOME/.furyad init your-moniker --chain-id praetoria-1
 furyad --home $HOME/.furyad keys add your-key-name
 
 # Set account necessary balance
-furyad --home $HOME/.furyad genesis add-genesis-account your-key-name 10000200000ufurya
+furyad --home $HOME/.furyad add-genesis-account your-key-name 10000200000ufurya
 ```
 
 Then create your own genesis transaction (`gentx`). You will have to choose the following parameters for your validator: `commission-rate`, `commission-max-rate`, `commission-max-change-rate`, `min-self-delegation` (>=1), `website` (optional), `details` (optional), `identity` ([keybase](https://keybase.io) key hash, used to get validator logos in block explorers - optional), `security-contact` (email - optional).
