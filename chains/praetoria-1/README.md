@@ -28,7 +28,7 @@ Then create your own genesis transaction (`gentx`). You will have to choose the 
 
 ```sh
 # Create the gentx
-furyad --home $HOME/.furyad genesis gentx your-key-name 10000000000ufurya \
+furyad --home $HOME/.furyad gentx your-key-name 10000000000ufurya \
   --node-id $(furyad --home $HOME/.furyad tendermint show-node-id) \
   --chain-id praetoria-1 \
   --commission-rate 0.05 \
